@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-image: url(../imagenes/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.titulo {
+    background-color: RGBA(202,217,251,0.7);
+    padding: 2%;
+    align-self: center;
+    border-radius: 5px;
+    animation-duration: 3s;
+    animation-name: titulo;
+    animation-timing-function: linear;
+    z-index: 10;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes titulo {
+    from {
+        position: relative;
+        top: -500px;
+    }
+    to {
+        position: relative;
+        top: 0px;
+    }
+}
